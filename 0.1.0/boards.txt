@@ -25,8 +25,8 @@ allwizek2.build.extra_flags=-DUSE_ARDUINO_MKR_PIN_LAYOUT -D__SAMD21G18A__ {build
 allwizek2.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
 allwizek2.build.openocdscript=openocd_scripts/arduino_zero.cfg
 allwizek2.build.variant=allwizek2
-allwizek2.build.vid=0x2341
-allwizek2.build.pid=0x8053
+allwizek2.build.vid=0x04d8
+allwizek2.build.pid=0xed47
 allwizek2.bootloader.tool=openocd
 allwizek2.bootloader.file=allwizek2/samd21_sam_ba_allwize_k2.bin
 

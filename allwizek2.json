@@ -32,6 +32,9 @@
     "frameworks": [
       "arduino"
     ],
+    "platforms": [
+      "atmelsam"
+    ],
     "name": "AllWize K2",
     "upload": {
       "disable_flushing": true,

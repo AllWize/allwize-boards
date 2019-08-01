@@ -16,8 +16,8 @@
           },
           "url": "https://raw.githubusercontent.com/AllWize/allwize-boards/master/allwize-boards-0.1.0.zip",
           "archiveFileName": "allwize-boards-0.1.0.zip",
-          "checksum": "SHA-256:197a2cfb053853a867e0f899d8382cb045f3e3f7d421a6a2ebda24cf2afcf027",
-          "size": "1455493",
+          "checksum": "SHA-256:dbaa86730977ca80a6bcd60958f38920683dd415d4e7eef439bb9b83e4fcfd76",
+          "size": "1455512",
           "boards": [
             {
               "name": "AllWize K2"

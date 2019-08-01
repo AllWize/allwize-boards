@@ -210,3 +210,6 @@ unsigned int PINCOUNT_fn();
 
 // Alias SerialWize to Serial2
 #define SerialWize                  Serial2
+
+// Wize radio reset pin
+#define PIN_WIZE_RESET              (30ul)
