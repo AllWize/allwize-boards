@@ -1,0 +1,35 @@
+# --------------------
+# AllWize K2
+# --------------------
+
+allwizek2.name=AllWize K2
+allwizek2.vid.0=0x04d8
+allwizek2.pid.0=0xed47
+allwizek2.vid.1=0x2341
+allwizek2.pid.1=0x804f
+allwizek2.vid.2=0x2341
+allwizek2.pid.2=0x004f
+allwizek2.upload.tool=bossac
+allwizek2.upload.protocol=sam-ba
+allwizek2.upload.maximum_size=262144
+allwizek2.upload.use_1200bps_touch=true
+allwizek2.upload.wait_for_upload_port=true
+allwizek2.upload.native_usb=true
+allwizek2.build.mcu=cortex-m0plus
+allwizek2.build.f_cpu=48000000L
+allwizek2.build.usb_product="AllWize K2"
+allwizek2.build.usb_manufacturer="AllWize"
+allwizek2.build.board=ALLWIZE_K2
+allwizek2.build.core=arduino
+allwizek2.build.extra_flags=-DUSE_ARDUINO_MKR_PIN_LAYOUT -D__SAMD21G18A__ {build.usb_flags}
+allwizek2.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+allwizek2.build.openocdscript=openocd_scripts/arduino_zero.cfg
+allwizek2.build.variant=allwizek2
+allwizek2.build.vid=0x2341
+allwizek2.build.pid=0x8053
+allwizek2.bootloader.tool=openocd
+allwizek2.bootloader.file=allwizek2/samd21_sam_ba_allwize_k2.bin
+
+
+
+

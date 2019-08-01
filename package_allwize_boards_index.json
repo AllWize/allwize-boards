@@ -1,0 +1,58 @@
+{
+  "packages": [
+    {
+      "maintainer": "AllWize",
+      "websiteURL": "http://allwize.io",
+      "email": "github@allwize.io",
+      "name": "AllWize",
+      "platforms": [
+        {
+          "name": "Allwize SAMD Boards (32-bits ARM Cortex-M0+)",
+          "architecture": "samd",
+          "version": "0.1.0",
+          "category": "Contributed",         
+          "help": {
+            "online": "http://allwize.io"
+          },
+          "url": "https://raw.githubusercontent.com/AllWize/allwize-boards/master/allwize-boards-0.1.0.zip",
+          "archiveFileName": "allwize-boards-0.1.0.zip",
+          "checksum": "SHA-256:197a2cfb053853a867e0f899d8382cb045f3e3f7d421a6a2ebda24cf2afcf027",
+          "size": "1455493",
+          "boards": [
+            {
+              "name": "AllWize K2"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino5-static"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            }
+          ]
+        }
+      ],
+      "tools": [] 
+    }
+  ]
+}
