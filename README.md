@@ -2,7 +2,8 @@
 
 Boards definition and custom bootloaders for:
 
-* AllWize K2
+### AllWize K2 ###
+  
   * Wiki Page: http://wiki.allwize.io/index.php?title=Allwize_K2
   * Github repository: https://github.com/AllWize/AllWizeK2-hardware
   * Store: https://www.allwize.io/product-page/the-allwize-k2
