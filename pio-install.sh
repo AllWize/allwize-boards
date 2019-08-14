@@ -26,6 +26,9 @@ if [ ! -d $PIO_PLATFORM ]; then
     exit
 fi
 
+# force atmelsam install
+pio run -sd dummy
+
 # boards.txt
 ln -sf $(pwd)/$VERSION/boards.txt $PIO_PACKAGE/boards_allwize.txt
 
@@ -34,3 +37,6 @@ ln -sf $(pwd)/$VERSION/variants/allwizek2 $PIO_PACKAGE/variants/
 
 # boards.json
 ln -sf $(pwd)/allwizek2.json $PIO_PLATFORM/boards/allwizek2.json
+
+# exit
+echo "AllWize K2 support installed!"
