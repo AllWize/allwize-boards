@@ -9,15 +9,15 @@
         {
           "name": "Allwize SAMD Boards (32-bits ARM Cortex-M0+)",
           "architecture": "samd",
-          "version": "0.1.0",
+          "version": "0.1.1",
           "category": "Contributed",         
           "help": {
             "online": "http://allwize.io"
           },
-          "url": "https://raw.githubusercontent.com/AllWize/allwize-boards/master/allwize-boards-0.1.0.zip",
-          "archiveFileName": "allwize-boards-0.1.0.zip",
-          "checksum": "SHA-256:dbaa86730977ca80a6bcd60958f38920683dd415d4e7eef439bb9b83e4fcfd76",
-          "size": "1455512",
+          "url": "https://raw.githubusercontent.com/AllWize/allwize-boards/master/allwize-boards-0.1.1.zip",
+          "archiveFileName": "allwize-boards-0.1.1.zip",
+          "checksum": "SHA-256:27ee7ef915f0926fe41bf2c640ae4dc72d3902ab8178456f37f10ceae091eeb9",
+          "size": "1455498",
           "boards": [
             {
               "name": "AllWize K2"
@@ -48,6 +48,11 @@
               "packager": "arduino",
               "name": "CMSIS-Atmel",
               "version": "1.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.0"
             }
           ]
         }

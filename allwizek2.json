@@ -6,16 +6,16 @@
       "f_cpu": "48000000L",
       "hwids": [
         [
-          "0x04d8",
-          "0xed47"
-        ],
-        [
           "0x2341",
           "0x804f"
         ],
         [
           "0x2341",
           "0x004f"
+        ],
+        [
+          "0x04d8",
+          "0xed47"
         ]
       ],
       "ldscript": "flash_with_bootloader.ld",

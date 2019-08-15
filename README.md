@@ -22,7 +22,7 @@ Starting with 1.6.4, Arduino allows installation of third-party platform package
 
 ## Using with PlatformIO
 
-There is a [ticket in the PlatformIO AtmelSAM Platform](https://github.com/platformio/platform-atmelsam/issues/71) to add support the AllWize K2, but it's not yet included. In the meantime you can modify your local copy of PlatformIO to include the required files (here `version` is the latest folder, 0.1.0 as of August 2019):
+There is a [ticket in the PlatformIO AtmelSAM Platform](https://github.com/platformio/platform-atmelsam/issues/71) to add support the AllWize K2, but it's not yet included. In the meantime you can modify your local copy of PlatformIO to include the required files (here `version` is the latest folder, 0.1.1 as of August 2019):
 
 * copy the `<version>/boards.txt` file to the Platformio `framework-arduinosam` package folder as `boards_allwize.txt`
 * copy the `<version>/variants/allwizek2` folder to the Platformio `framework-arduinosam` package `variants` folder
@@ -31,7 +31,7 @@ There is a [ticket in the PlatformIO AtmelSAM Platform](https://github.com/platf
 If using Linux, you have a script in the repository that does all these steps for you, just call it from the repo root folder with the version you want to install:
 
 ```
-$ ./pio-install.sh 0.1.0
+$ ./pio-install.sh 0.1.1
 ```
 
 ## License
