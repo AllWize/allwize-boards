@@ -17,7 +17,8 @@ Starting with 1.6.4, Arduino allows installation of third-party platform package
 * Install the current upstream Arduino IDE at the 1.8.7 level or later. The current version is on the Arduino website.
 * Start Arduino and open the Preferences window.
 * Enter https://raw.githubusercontent.com/AllWize/allwize-boards/master/package_allwize_boards_index.json into the Additional Board Manager URLs field. You can add multiple URLs, separating them with commas.
-* Open Boards Manager from Tools > Board menu and install "Allwize SAMD Boards (32-bits ARM Cortex-M0+)"
+* Open Boards Manager from Tools > Board menu and install "Arduino SAMD Boards (32-bits ARM Cortex-M0+)"
+* In the same dialog, install "Allwize SAMD Boards (32-bits ARM Cortex-M0+)"
 * Don't forget to select your AllWize board from Tools > Board menu after installation.
 
 ## Using with PlatformIO
